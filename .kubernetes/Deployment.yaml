@@ -17,6 +17,6 @@ spec:
       containers:
         - name: test-app
           image: test-app-docker:1
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
