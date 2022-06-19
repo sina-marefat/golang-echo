@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: test-app
-          image: test-app-docker:1
+          image: sinamarefat/test-app-docker:1
           imagePullPolicy: Never
           ports:
             - containerPort: 8080
